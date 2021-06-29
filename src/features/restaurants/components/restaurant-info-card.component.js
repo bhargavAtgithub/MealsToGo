@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { SvgXml } from "react-native-svg";
 
 import { Spacer } from "../../../components/spacer/spacer.component";
