@@ -3,6 +3,6 @@ import styled from "styled-components";
 
 import { CompactRestaurantInfo } from "../../../components/restaurant/compact-restaurant-info.component";
 
-export const MapCallout = ({ restaurant }) => (
-  <CompactRestaurantInfo restaurant={restaurant} />
+export const MapCallout = ({ restaurant, isMap }) => (
+  <CompactRestaurantInfo restaurant={restaurant} isMap />
 );
